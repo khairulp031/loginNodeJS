@@ -1,0 +1,33 @@
+{
+  "name": "loginnodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khairulp031/loginNodeJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khairulp031/loginNodeJS/issues"
+  },
+  "homepage": "https://github.com/khairulp031/loginNodeJS#readme",
+  "dependencies": {
+    "base64url": "^3.0.1",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "csv-reader": "^1.0.8",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "jsrsasign": "^10.4.1",
+    "jsrsasign-util": "^1.0.5",
+    "mariadb": "^2.5.5",
+    "mongoose": "^6.0.12",
+    "node-env-file": "^0.1.8",
+    "uuid": "^8.3.2"
+  }
+}
